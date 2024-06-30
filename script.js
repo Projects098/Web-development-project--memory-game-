@@ -15,7 +15,7 @@ function flipCard({target: clickedCard}) {
         let cardOneImg = cardOne.querySelector(".back-view img").src,
         cardTwoImg = cardTwo.querySelector(".back-view img").src;
         matchCards(cardOneImg, cardTwoImg);
-    }
+      }
 }
 
 function matchCards(img1, img2) {
